@@ -1,0 +1,24 @@
+h1,h2,p,td{
+	color: blue;
+}
+
+.text-center{
+	text-align: center;
+}
+
+#rounded-img {
+	border-radius: 30px;
+}
+table, th, td {
+  border: 10px solid transparent;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+body {
+  background-image: url("images/bubbles.jpg");
+  background-repeat: no-repeat;
+  /* Liniile de mai jos sunt necesare pentru centrare */
+  background-position: center;
+  background-size: cover; /* Optional, dar recomandat pentru a acoperi tot ecranul */
+}
