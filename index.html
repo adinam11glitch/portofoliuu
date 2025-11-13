@@ -1,70 +1,79 @@
 <html>
 	<head>
 		<title>Student</title>
-	</head>
 		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>	
+	</head>
+		
 	<body>
-
-		<a href="cuprins.html">Cuprins</a>
-
-		<h1 class="text-center">Nume: Zaldoiu</h1>
-		<h2>Prenume: Maria-Adina</h2>
+		<button>
+			<a href="cuprins.html">Cuprins</a>
+		</button>
+		
+		<br>				
+		<button id="button">Alta viata</button>
+		
+		<div>
+			<h1 class="text-center" id="nume">Nume: Zaldoiu</h1>
+			<h2 class="text-center" id="prenume">Prenume: Maria-Adina</h2>
+		</div>
+		
 		<h3>E-mail: Zaldoiu.Io.Maria@student.utcluj.ro</h3>
-		<img id="rounded-img" src="images\cat.jpg" width="300px" height="300px">
-		<h4>Asteptari legate de educatie: -</h4> 
-	<table>
-		<tr>
-			<th>Disciplina</th>
-			<th>An</th>
-			<th>Link</th>
-		</tr>
-
-		<tr>
-			<td>Informatica Aplicata</td>
-			<td>1</td>
-			<td><a
-href="//etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">TV</a></td>
-		</tr>
-
-		<tr>
-			
-			<td>Algebra Liniara</td>
-			<td>2</td>
-			<td><a
-href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/02.pdf">TV</a></td>
-		</tr>
 		
-<tr>
-			
-			<td>Fizica II</td>
-			<td>3</td>
-			<td><a
-href="//etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">TV</a></td>
-		</tr>
+		<p id="anNastere">2006</p>	
 
-<tr>
-			
-			<td>Educatie Fizica si Sport</td>
-			<td>4</td>
-			<td><a	
-href="//etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/07.pdf">TV</a></td>
-</tr>
+		<!-- Calea imaginii a fost corectată de la images\cat.jpg la images/cat.jpg -->
+		<img id="rounded-img" src="images/cat.jpg" width="300px" height="300px">
 		
+		<!-- Am adăugat ID-ul "educatie" aici pentru a fi preluat de script -->
+		<h4 id="educatie">Asteptari legate de educatie:</h4> 
+		<p id="asteptari">Dezvoltare personala.</p>
+		
+		<table border="1">
+			<tr>
+				<th>Disciplina</th>
+				<th>An</th>
+				<th>Link</th>
+			</tr>
 
-		<tr>
+			<tr>
+				<td>Informatica Aplicata</td>
+				<td>1</td>
+				<td><a href="//etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">TV</a></td>
+			</tr>
+
+			<tr>
+				<td>Algebra Liniara</td>
+				<td>2</td>
+				<td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/02.pdf">TV</a></td>
+			</tr>
 			
-			<td>Limba Franceza I</td>
-			<td>5</td>
-			<td><a
-href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/14_20.pdf">TV</a></td>
-		</tr>
+			<tr>
+				<td>Fizica II</td>
+				<td>3</td>
+				<td><a href="//etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/06.pdf">TV</a></td>
+			</tr>
+
+			<tr>
+				<td>Educatie Fizica si Sport</td>
+				<td>4</td>
+				<td><a href="//etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/07.pdf">TV</a></td>
+			</tr>
+			
+			<tr>
+				<td>Limba Franceza I</td>
+				<td>5</td>
+				<td><a href="https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/14_20.pdf">TV</a></td>
+			</tr>
+		</table>
 		
-</table>
-<br>
-Hobby-uri:
-<ol>
-	<ul>
-	<li>Bicicleta</li>
-			
+		<br>
+		
+		<h4>Hobby-uri:</h4>
+		<ol>
+			<!-- Am închis corect tag-ul <li> și am eliminat <ul> greșit plasat -->
+			<li>Bicicleta</li>
+		</ol>
+		
 	</body>
-</html>														                         
+</html>
